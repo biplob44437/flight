@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <title>Flight booking app </title>
+        <link rel="stylesheet" href=".//style.css">
+
+    </head>
+    <body>
+       
+   <div class="container">
+     <form class="from-group" >
+         <h1 class="text-center text-white"> Airline booking form </h1>
+
+         <div id="form">
+            <h3 class="text-white">Booking details</h3>
+            <div id="input">
+                <input type=" text" id="input-group" placeholder="form">
+                <input type=" text" id="input-group" placeholder="To">
+                <input type="text" id="input-group" placeholder="Curent-date">
+                <input type="text" id="input-group" placeholder="Curent-time">
+
+                <select  id="input-group" style="background: rgb(0, 0, 0);">
+                    <option value="">Preffered Airline </option>
+                    <option value="">Indogo</option>
+                    <option value="">AirIndia</option>
+                    <option value="">spacejet</option>
+                </select>
+                <select  id="input-group" style="background-color: rgb(0, 0, 0);">
+                    <option value="">Preffered seating </option>
+                    <option value="">Economoy</option>
+                    <option value="">Business class</option>
+                    <option value="">first-class</option>
+                </select>
+                <div id="input2"></div>
+                <input type="Number" id="input-group" placeholder="Adult group">
+                <input type="Number" id="input-group" placeholder="Children(2-11years)">
+                <input type="Number" id="input-group" placeholder="Infant(Under 2years)">
+           </div>
+           <div id="input3">
+               <span id="input-group" class="text-primary"> Select your fare</span>
+               <label class="text-white" for="input-group">one-way</label>
+               <input type="Radio" id="input-group" name="r">
+               <label class="text-white" for="input-group">Round-trip</label>
+               <input type="Radio" id="input-group" name="r">
+              
+           </div>
+
+           <div id="input4">
+               <input type="text" id="input-group" placeholder="Return-date">
+               <input type="text" id="input-group" placeholder="Return-time">
+               <input type="text" id="input-group1" placeholder="Any-messege">
+
+           </div>
+         <div id="input5">
+             <h3 class="text-white">Personal details </h3>
+         </div>
+         <div id="input6">
+             <input type="text" id="input-group" placeholder="Full name">
+             <input type="Number" id="input-group" placeholder="Phone number">
+             <input type="Email " id="input-group1" placeholder="Email">
+
+         </div>
+  <a  class="btn btn-warning btn-lg" href="chreckout.html">Sumbit-Now</a>
+         <button type="reset" class="btn btn-primary btn-lg">clear-form</button>
+
+       </div>
+     </form>
+   </div>
+
+        <script src="index.js">
+
+        </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    </body>
+</html>
